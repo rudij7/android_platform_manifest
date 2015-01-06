@@ -9,6 +9,9 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote  name="T210-dev"
+           fetch="https://github.com/T210-dev/" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
@@ -48,6 +51,7 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
+  <project path="device/samsung/lt02wifi" remote="T210-dev" name="android_device_samsung_lt02wifi" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
@@ -304,7 +308,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" remote="T210-dev" name="android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
@@ -332,8 +336,9 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware" remote="T210-dev" name="android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" remote="T210-dev" name="android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/marvell" remote="T210-dev" name="android_hardware_marvell" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
@@ -500,5 +505,10 @@
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
+  <project path="vendor/marvell/generic" remote="T210-dev" name="android_vendor_marvell_generic" />
+  <project path="vendor/marvell/external" remote="T210-dev" name="android_vendor_marvell_external" />
+  <project path="kernel/samsung/lt02" remote="T210-dev" name="android_kernel_samsung_lt02" />
+  <project path="platform_manifest" remote="T210-dev" name="android_platform_manifest" />
+
 </manifest>
 
