@@ -51,7 +51,6 @@
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
-  <project path="device/samsung/lt02wifi" remote="T210-dev" name="android_device_samsung_lt02wifi" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
@@ -508,6 +507,7 @@
   <project path="vendor/marvell/generic" remote="T210-dev" name="android_vendor_marvell_generic" />
   <project path="vendor/marvell/external" remote="T210-dev" name="android_vendor_marvell_external" />
   <project path="vendor/samsung/lt02wifi" remote="T210-dev" name="android_vendor_samsung_lt02wifi" />
+  <project path="device/samsung/lt02wifi" remote="T210-dev" name="android_device_samsung_lt02wifi" />
   <project path="kernel/samsung/lt02" remote="T210-dev" name="android_kernel_samsung_lt02" />
   <project path="platform_manifest" remote="T210-dev" name="android_platform_manifest" />
 
