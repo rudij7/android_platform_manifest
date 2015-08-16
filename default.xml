@@ -509,8 +509,8 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/marvell/generic" remote="T210-dev" name="android_vendor_marvell_generic" />
   <project path="vendor/marvell/external" remote="T210-dev" name="android_vendor_marvell_external" />
-  <project path="vendor/samsung/lt023g" remote="rudij7" name="android_vendor_samsung_lt02wifi" />
-  <project path="device/samsung/lt023g" remote="rudij7" name="android_device_samsung_lt02wifi" />
+  <project path="vendor/samsung/lt023g" remote="rudij7" name="android_vendor_samsung_lt023g" />
+  <project path="device/samsung/lt023g" remote="rudij7" name="android_device_samsung_lt023g" />
   <project path="kernel/samsung/lt02" remote="T210-dev" name="android_kernel_samsung_lt02" />
   <project path="platform_manifest" remote="rudij7" name="android_platform_manifest" />
 
