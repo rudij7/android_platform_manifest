@@ -11,6 +11,9 @@
 
   <remote  name="T210-dev"
            fetch="https://github.com/T210-dev/" />
+           
+  <remote  name="rudij7"
+           fetch="https://github.com/rudij7" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -506,10 +509,10 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   <project path="vendor/marvell/generic" remote="T210-dev" name="android_vendor_marvell_generic" />
   <project path="vendor/marvell/external" remote="T210-dev" name="android_vendor_marvell_external" />
-  <project path="vendor/samsung/lt02wifi" remote="T210-dev" name="android_vendor_samsung_lt02wifi" />
-  <project path="device/samsung/lt02wifi" remote="T210-dev" name="android_device_samsung_lt02wifi" />
+  <project path="vendor/samsung/lt023g" remote="rudij7" name="android_vendor_samsung_lt02wifi" />
+  <project path="device/samsung/lt023g" remote="rudij7" name="android_device_samsung_lt02wifi" />
   <project path="kernel/samsung/lt02" remote="T210-dev" name="android_kernel_samsung_lt02" />
-  <project path="platform_manifest" remote="T210-dev" name="android_platform_manifest" />
+  <project path="platform_manifest" remote="rudij7" name="android_platform_manifest" />
 
 </manifest>
 
